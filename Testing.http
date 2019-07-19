@@ -1,0 +1,11 @@
+@baseUrl = Your-Open-Project-Base-Url
+@apiKey  = Your-API-Key-Here
+
+GET {{baseUrl}}/ HTTP/1.1
+Authorization: Basic apikey {{apiKey}}
+
+###
+
+GET {{baseUrl}}/api/v3/work_packages?pageSize=25&filters=[{ "assigneeOrGroup": { "operator": "=", "values": "me" }}]&sortBy=[["id", "asc"]] HTTP/1.1
+Authorization: Basic apikey {{apiKey}}
+
