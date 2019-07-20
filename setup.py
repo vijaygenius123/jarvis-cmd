@@ -10,12 +10,13 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="jarvis-cmd",
-    version="0.0.4",
+    version="0.0.5",
     description="CLI To Make Your Life Easier",
     long_description=README,
     long_description_content_type="text/markdown",
     author="Vijayaraghavan Sundararaman",
     author_email="vijaygenius123@gmail.com",
+    url='https://github.com/vijaygenius123/jarvis-cmd',
     license="MIT",
     classifiers=[
         "License :: OSI Approved :: MIT License",
@@ -24,7 +25,7 @@ setup(
     ],
     packages=["jarvis"],
     include_package_data=True,
-    install_requires=["Click", "configparser", "requests","PyInquirer"],
+    install_requires=["Click", "configparser", "requests", "PyInquirer"],
     entry_points={
         "console_scripts": [
             "jarvis=jarvis.__main__:main",
