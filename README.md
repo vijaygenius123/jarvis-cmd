@@ -31,5 +31,3 @@ You can install `jarvis` using `pip install jarvis-cmd`, after which you should 
 ### Thanks
 
 If you like this project you can give a star on GitHub.
-
-  <iframe src="https://ghbtns.com/github-btn.html?user=vijaygenius123&repo=/jarvis-cmd&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>

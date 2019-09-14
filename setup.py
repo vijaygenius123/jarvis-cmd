@@ -10,7 +10,7 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="jarvis-cmd",
-    version="0.0.5",
+    version="0.0.6",
     description="CLI To Make Your Life Easier",
     long_description=README,
     long_description_content_type="text/markdown",
